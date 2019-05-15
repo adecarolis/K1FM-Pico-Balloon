@@ -1,0 +1,31 @@
+Partlist
+
+Exported from k1fm-pico-power.brd at 5/14/19 9:52 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package     Library                 Position (mm)         Orientation
+
+C1       2.2uF          0603        SparkFun-Capacitors     (6.531565625 2.379928125) R180
+C2       1uF            0603        SparkFun-Capacitors     (17.335853125 6.03136875) R90
+C4       1uF            0603        SparkFun-Capacitors     (10.94758125 2.3736875) R0
+CF1      1uF            0603        SparkFun-Capacitors     (15.776890625 8.866540625) R0
+COUT1    10uF           0603        SparkFun-Capacitors     (16.087353125 8.471415625) MR0
+D1       SS14           DO-214AC    diode                   (5.613209375 8.042915625) R90
+J1       SOLAR          1X02        SparkFun-Connectors     (2.06810625 4.88538125) R270
+J2       BATT +         1X01        SparkFun-Connectors     (15.832240625 11.52364375) R0
+J3       BATT -         1X01        SparkFun-Connectors     (20.2221875 6.057896875) R0
+J4       LOAD           1X02        SparkFun-Connectors     (2.22515 11.576321875) R270
+J5       TEST           1X03        SparkFun-Connectors     (15.198503125 2.406746875) R0
+L1       74404043220A   WE-LQS_4025 PowerMagnetics (rev18e) (11.161296875 9.90360625) R180
+R1       390k           0603        SparkFun-Resistors      (8.120071875 9.132759375) MR0
+R2       130k           0603        SparkFun-Resistors      (12.03569375 9.1453625) MR0
+R3       1k             0603        SparkFun-Resistors      (7.4107625 5.81016875) MR270
+R10      10k            0603        SparkFun-Resistors      (8.13915625 11.238603125) MR180
+R11      10k            0603        SparkFun-Resistors      (12.010128125 11.22795625) MR180
+RF1      1k             0603        SparkFun-Resistors      (13.0223875 6.694203125) MR180
+RF2      1k             0603        SparkFun-Resistors      (13.027859375 4.813203125) MR180
+RS1      0              0603        SparkFun-Resistors      (9.93624375 5.82666875) MR270
+U1       SPV1040        TSSOP-8     smd-footprints          (11.187171875 5.654446875) R0

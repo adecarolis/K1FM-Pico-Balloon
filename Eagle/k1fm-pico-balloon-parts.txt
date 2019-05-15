@@ -1,0 +1,50 @@
+Partlist
+
+Exported from k1fm-pico-balloon.brd at 5/14/19 9:50 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                Package           Library             Position (mm)         Orientation
+
+3.3V     3.3V                 1X02              SparkFun-Connectors (2.12581875 50.367578125) R0
+C1       1.0uF                0603              SparkFun-Capacitors (6.510471875 54.445575) R90
+C2       0.1uF                0603              SparkFun-Capacitors (20.368628125 60.546821875) R0
+C3       0.1uF                0603              SparkFun-Capacitors (1.67336875 77.49301875) R270
+C4       1.0uF                0603              SparkFun-Capacitors (13.97363125 54.226953125) R90
+C5       56pF                 0603              SparkFun-Capacitors (0.9513875 53.924478125) MR90
+C6       18pF                 0603              SparkFun-Capacitors (2.764634375 56.918090625) MR0
+C7       47pF                 0603              SparkFun-Capacitors (7.7810625 53.907934375) MR90
+C8       18pF                 0603              SparkFun-Capacitors (10.309815625 56.9182125) MR0
+C9       56pF                 0603              SparkFun-Capacitors (11.027996875 53.883903125) MR90
+C10      0.47uF               0603              SparkFun-Capacitors (1.418003125 65.57608125) MR90
+C11      0.47uF               0603              SparkFun-Capacitors (6.47683125 56.888134375) MR0
+C12      1.0uF                0603              SparkFun-Capacitors (22.8037125 78.398090625) R180
+C13      10nF                 0603              SparkFun-Capacitors (13.004925 57.02285)  R180
+C14      100nF                0603              SparkFun-Capacitors (13.074546875 63.546453125) R180
+GPS-ANT  GPS ANT              1X02              SparkFun-Connectors (8.6076125 77.45479375) R180
+GPS1     UBLOX_MAX            UBLOX_MAX         Ava                 (8.54139375 69.8114625) MR270
+HF-ANT   HF ANT               1X02              SparkFun-Connectors (11.95895 50.374421875) R180
+J2                            1X06              SparkFun-Connectors (19.822009375 63.94051875) R90
+J3                            1X06              SparkFun-Connectors (22.97235 75.68136875) R270
+L1       1.5uH                0603              SparkFun-Coils      (0.684228125 60.30738125) MR270
+L2       1.5uH                0603              SparkFun-Coils      (4.356440625 53.90499375) MR270
+L3       1.5uH                0603              SparkFun-Coils      (13.370315625 55.87625) MR270
+Q1       ASTX-H11-25.000MHZ-T 3.2X2.5_KXO-84    crystal-geyer_V1_0  (13.06335625 60.217428125) R270
+Q2       DMP2305U             SOT23             transistor-fet      (13.0687625 77.42356875) MR270
+Q3       DMP2305U             SOT23             transistor-fet      (9.510571875 60.338534375) MR90
+R1       10k                  0603              SparkFun-Resistors  (0.56444375 54.44650625) R90
+R2       10k                  0603              SparkFun-Resistors  (1.5009875 69.44980625) MR270
+R3       4.7k                 0603              SparkFun-Resistors  (5.890165625 62.760128125) R270
+R4       4.7k                 0603              SparkFun-Resistors  (9.07876875 62.5356875) R270
+R5       10k                  0603              SparkFun-Resistors  (3.40955 54.446978125) R90
+R6       150                  0603              SparkFun-Resistors  (12.0157125 77.073940625) R90
+R7       10k                  0603              SparkFun-Resistors  (13.94909375 77.04793125) R90
+R8       150                  0603              SparkFun-Resistors  (4.339446875 60.278315625) MR270
+R9       10k                  0603              SparkFun-Resistors  (6.42000625 60.3064125) MR90
+U1       ATMEGA328            TQFP32-08         SparkFun            (6.558065625 70.28035625) R180
+U2       Si5351A-B-GT         MSOP10            microbuilder        (8.333103125 58.529059375) R90
+U3       MCP1754X-XXXXX/C     SOT-23A_MC        MCP1754             (10.36651875 54.132665625) R90
+U4       TMP36                SOT-23            TMP36               (1.986578125 62.786390625) R180
+Y1       8/16/20MHz           RESONATOR-SMD-1:1 Testing             (13.49439375 71.889096875) R90
