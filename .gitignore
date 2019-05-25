@@ -2,3 +2,4 @@ Eagle/*.s#*
 Eagle/*.b#*
 Eagle/*.job*
 Eagle/*.pro
+Eagle/*.lck
