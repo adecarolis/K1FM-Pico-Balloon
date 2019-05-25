@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6270,7 +6270,7 @@ reflow soldering</description>
 <sheets>
 <sheet>
 <plain>
-<text x="203.2" y="10.16" size="7.62" layer="94">K1FM Pico Balloon 1.2</text>
+<text x="203.2" y="10.16" size="7.62" layer="94">K1FM Pico Balloon 1.3</text>
 </plain>
 <instances>
 <instance part="GND16" gate="1" x="228.6" y="134.62" smashed="yes" rot="R90">
@@ -6580,11 +6580,6 @@ reflow soldering</description>
 <pinref part="U3" gate="A" pin="GND"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
-<label x="40.64" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="GPS-ANT" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="160.02" y1="170.18" x2="160.02" y2="165.1" width="0.1524" layer="91"/>
@@ -6684,11 +6679,6 @@ reflow soldering</description>
 </segment>
 </net>
 <net name="3V" class="0">
-<segment>
-<wire x1="38.1" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
-<label x="40.64" y="81.28" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
@@ -6905,6 +6895,11 @@ reflow soldering</description>
 <wire x1="264.16" y1="55.88" x2="261.62" y2="55.88" width="0.1524" layer="91"/>
 <label x="261.62" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="38.1" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="40.64" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -6921,12 +6916,18 @@ reflow soldering</description>
 <wire x1="264.16" y1="58.42" x2="261.62" y2="58.42" width="0.1524" layer="91"/>
 <label x="261.62" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="38.1" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
+<label x="40.64" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="CLK0" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="CLK0"/>
-<wire x1="289.56" y1="66.04" x2="292.1" y2="66.04" width="0.1524" layer="91"/>
-<label x="292.1" y="66.04" size="1.778" layer="95" xref="yes"/>
+<wire x1="289.56" y1="66.04" x2="294.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="66.04" x2="294.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="294.64" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <label x="58.42" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -7140,6 +7141,30 @@ reflow soldering</description>
 <junction x="238.76" y="170.18"/>
 </segment>
 </net>
+<net name="B0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="157.48" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="160.02" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GPS1" gate="G$1" pin="4_TIMEPULSE"/>
+<wire x1="223.52" y1="149.86" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
+<label x="226.06" y="149.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="D7" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD7(AIN1)"/>
+<wire x1="157.48" y1="73.66" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="160.02" y="73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="CLK2"/>
+<wire x1="289.56" y1="55.88" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
+<label x="292.1" y="55.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -7151,6 +7176,7 @@ reflow soldering</description>
 <approved hash="104,1,223.52,165.1,GPS1,7_VCC_IO,N$8,,,"/>
 <approved hash="104,1,223.52,134.62,GPS1,1_GND,GND,,,"/>
 <approved hash="104,1,264.16,66.04,U2,VDD,N$15,,,"/>
+<approved hash="202,1,264.16,60.96,U2,XB,,,,"/>
 <approved hash="104,1,289.56,58.42,U2,VDDO,N$15,,,"/>
 <approved hash="104,1,228.6,68.58,Q1,VDD,N$15,,,"/>
 <approved hash="113,1,33.6127,109.288,J2,,,,,"/>
