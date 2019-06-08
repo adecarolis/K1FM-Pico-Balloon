@@ -34,3 +34,5 @@ Initial, not functioning prototype.
 - Added extra power pin for direct battery charging via Schottky diode
 - Reorganized external pins, added standard ISCP header
 - R1, R5 now 4.7K
+- Fixed Q2-Q3 Mosfet polarization
+- Expanded Remove Before Flight section gap
