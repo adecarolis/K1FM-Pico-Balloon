@@ -1,13 +1,18 @@
 # K1FM Pico Balloon
 
-This is a work in progress which never flew (yet!). There certainly are errors and/or parts subject to change.
-Feel free to test it, boards are available here:
+*This is a work in progress which never flew (yet!). Everything seems to be working right, but there still might be errors.*
+
+Active development of this board can be followed in the [Aries HAB mailing list](https://ovmrc.groups.io/g/AriesHAB).
+The recommended software is the [Orion project](https://github.com/ve3wmb/OrionWspr/) by VE3WMB
+
+Feel free to test these boards. You can purchase them here:
 
 https://oshpark.com/shared_projects/b55LTlS2
-
 https://oshpark.com/shared_projects/1jyIOWdR
+https://oshpark.com/shared_projects/ud3vH8MF
 
 Suggestions and technical advice are welcome!
+73 de Alain K1FM
 
 ## Changelog:
 
@@ -36,3 +41,4 @@ Initial, not functioning prototype.
 - 4.7 voltage divider on ADC0
 - Fixed Q2-Q3 Mosfet polarization
 - Expanded gap between main board and "Remove Before Flight" section
+
