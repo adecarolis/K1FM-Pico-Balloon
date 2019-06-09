@@ -20,11 +20,11 @@ Initial, not functioning prototype.
 **Version 1.2**
 - Added optional K1FM Pico Power board for battery charge management
 - Added bottom hook for dipole antennas
-- Replaced Si5351a quartz with TXCO (Q1)
+- Replaced Si5351a quartz with TCXO (Q1)
 - Added switches to power the Si5351a, GPS down (Q2 - Q3)
 - Added temperature sensor (TMP-36)
 - Added fixed V_BCK connection to 3.3V
-- Added VDD measurement point (PC0)
+- Added VDD measurement point (ADC0)
 
 **Version 1.3**
 - Switched to 4 Layers design
@@ -33,6 +33,6 @@ Initial, not functioning prototype.
 - Added external SDA, SCL pins
 - Added extra power pin for direct battery charging via Schottky diode
 - Reorganized external pins, added standard ISCP header
-- R1, R5 now 4.7K
+- 4.7 voltage divider on ADC0
 - Fixed Q2-Q3 Mosfet polarization
-- Expanded Remove Before Flight section gap
+- Expanded gap between main board and "Remove Before Flight" section
