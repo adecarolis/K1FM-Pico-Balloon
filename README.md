@@ -1,17 +1,16 @@
 # K1FM Pico Balloon
 
-*This is a work in progress which never flew (yet!). Everything seems to be working right, but there still might be errors.*
+*This is a work in progress which only flew once. Everything seems to be working right, but there still might be errors.*
 
 Active development of this board can be followed in the [Aries HAB mailing list](https://ovmrc.groups.io/g/AriesHAB).
-The recommended software is the [Orion project](https://github.com/ve3wmb/OrionWspr/) by VE3WMB
+The recommended software is [GeminiWSPR](https://github.com/adecarolis/GeminiWspr)
 
 Feel free to test these boards. You can purchase them here:
 
-https://oshpark.com/shared_projects/b55LTlS2
-https://oshpark.com/shared_projects/1jyIOWdR
 https://oshpark.com/shared_projects/ud3vH8MF
 
 Suggestions and technical advice are welcome!
+
 73 de Alain K1FM
 
 ## Changelog:
