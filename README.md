@@ -24,18 +24,18 @@ Suggestions and technical advice are welcome!
 
 This is the recommended assemply sequence. Test each step individually. Do not proceed furter in case you enconter a problem in the current step.
 
-- U1, C2, C3, C12, J2, Y1, R1, R2, R5 (Microcontroller)
+- Install U1, C2, C3, C12, J2, Y1, R1, R2, R5 (Microcontroller)
 - Use a USBasp programmer to load the Arduino bootloader (Atmel328p, 8MHz) via the ICSP port. Verify the bootloader can be uploaded without errors.
 - Disconnect the USBasp from the J2 port. Connect a serial Arduino programmer to J3 (use 3V and GND connections from J2). Load the GeminiWSPR firmware (don't forget to set your own callsign and gridsquare!). Verify debug output can be seen on the serial monitor.
-- GPS1, R6, Q2, C10 (GPS)
+- Install GPS1, R6, Q2, C10 (GPS)
 - Connect the GPS antenna
-- In the WSPR serial monitor, verify the GPS is working
-- Solder Q1, U2, C11, C13, C14, R3, R4, R8, Q3 (Transmitter)
-- Solder L1, L2, L3, C5, C6, C7, C8, C9 (Bandpass filter)
+- In the Arduino serial monitor, verify the GPS is working
+- Install Q1, U2, C11, C13, C14, R3, R4, R8, Q3 (Transmitter)
+- Install L1, L2, L3, C5, C6, C7, C8, C9 (Bandpass filter)
 - Connect the HF antenna 
 - Verify the unit transmits WSPR on 14.0956 MHz
-- Solder U3, C1, C4, D1 (Power Supply)
-Note: this is not needed if your power source is already regulated
+- Install U3, C1, C4, D1 (Power Supply)
+Note: this is not needed if your power source is externally regulated or never exceeds 3.5 Volts
 - Disconnect all J3/J2 connections. Verify the unit can be normally powered via J4
 
 ## Changelog:
