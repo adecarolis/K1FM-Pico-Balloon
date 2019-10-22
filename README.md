@@ -6,7 +6,7 @@
 
 This tracker board is WSPR based and transmits on 20 meters. Version 1.3 weights 2.84 grams and takes around 55mA at 3.3V. Unlike other designs, this one includes a passband filter that significantly smooths the resulting waveforms (such filter would be legally mandatory in the United States). The board includes a power regulator and a low voltage dropout diode that can be useful if using batteries.
 
-A maiden flight, powered by 6 29x19mm Aoshike solar panels, was attempted in New Jersey at the end of September 2019. After 5 days of transmissios the payload failed somewhere over Belize (central America) probably due to mechanical failure of the panels array.
+A maiden flight, powered by 6 39x19mm Aoshike solar panels, was attempted in New Jersey at the end of September 2019. After 5 days of transmissios the payload failed somewhere around Belize (central America) probably after encountering a tropical storm.
 
 Active development of this board can be followed in the [Aries HAB mailing list](https://ovmrc.groups.io/g/AriesHAB).
 
