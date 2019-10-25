@@ -8,8 +8,6 @@ This tracker board is WSPR based and transmits on 20 meters. Version 1.3 weights
 
 A maiden flight, powered by 6 39x19mm Aoshike solar panels, was attempted in New Jersey at the end of September 2019. After 5 days of transmissios the payload failed somewhere around Belize (central America) probably after encountering a tropical storm.
 
-Active development of this board can be followed in the [Aries HAB mailing list](https://ovmrc.groups.io/g/AriesHAB).
-
 The recommended software is [GeminiWSPR](https://github.com/adecarolis/GeminiWspr)
 
 Feel free to test these boards. You can purchase the latest revision (1.3) at OSHPark:
